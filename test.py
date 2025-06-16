@@ -96,8 +96,7 @@ def test_proxy(proxy_string):
 if __name__ == "__main__":
     # --- 1. Load Proxies from a file ---
     # Make sure your 1.5k proxies are in this file, one per line.
-    # Name it something like 'all_proxies.txt'
-    proxy_list_file = 'all_proxies.txt'
+    proxy_list_file = 'proxies.txt' # Changed from 'all_proxies.txt' to 'proxies.txt'
 
     try:
         with open(proxy_list_file, 'r') as f:
